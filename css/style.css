@@ -8,7 +8,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-text-color); 
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     font-size: 14px;
     background: var(--hero-color);
 }
@@ -84,15 +84,19 @@ color: var(--primary-text-color);
     width: 200px;
     height: 50px;
 }
-
+.btn-hero:hover {
+    background: #188CE8;
+}
 /*Advantages*/
 .hidden {
     display: none;
 }
 .advantage-title {
+    font-size: inherit;
     font-weight: 700;
     line-height: 1.14;
     color: var(--title-text-color);
+    text-transform: uppercase;
 }
 .advantage-text {
     line-height: 1.7;
@@ -129,7 +133,7 @@ color: var(--primary-text-color);
     
 }
 .address {
-    line-height: 1.17;
+    line-height: 1.71;
     color: var(--hero-color);
     font-style: inherit;
 }
